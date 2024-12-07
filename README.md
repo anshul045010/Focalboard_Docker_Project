@@ -16,6 +16,15 @@ Some key features of Focalboard include:
 
 2. Basic knowledge of command-line tools.
 
+## Steps
+### Pulling the Focalboard Docker Image
+
+docker pull mattermost/focalboard
+
+### Running Focalboard in a Container
+
+docker run -it -p 80:8000 mattermost/focalboard
+
 ## Conclusion
 This project you will successfully deploy Focalboard using Docker. This will enable to explore its features, customize workflows, and potentially extend its functionality. Docker’s containerization approach ensures that the setup is isolated, portable, and easy to manage, making it a reliable choice for personal or professional use.
 
