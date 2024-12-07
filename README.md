@@ -25,6 +25,9 @@ docker pull mattermost/focalboard
 
 docker run -it -p 80:8000 mattermost/focalboard
 
+## Video
+
+
 ## Conclusion
 This project you will successfully deploy Focalboard using Docker. This will enable to explore its features, customize workflows, and potentially extend its functionality. Docker’s containerization approach ensures that the setup is isolated, portable, and easy to manage, making it a reliable choice for personal or professional use.
 
